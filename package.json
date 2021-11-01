@@ -1,0 +1,23 @@
+{
+  "name": "innowise-steck",
+  "version": "1.0.0",
+  "description": "my realisation of steck in js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastSkywalkerER/innowise-steck.git"
+  },
+  "keywords": [
+    "js",
+    "steck"
+  ],
+  "author": "Maxim Drozd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LastSkywalkerER/innowise-steck/issues"
+  },
+  "homepage": "https://github.com/LastSkywalkerER/innowise-steck#readme"
+}
