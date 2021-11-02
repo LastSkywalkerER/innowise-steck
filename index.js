@@ -17,14 +17,15 @@ class Steck {
       }
     }
     this.length++;
+
   }
 
   pop() {
-    if (!this.length) {
-      let result = this.node;
+    if (this.length) {
+      let result = this.node.value;
       this.node = this.node.next;
       this.length--;
-      return result.value;
+      return result;
     }
   }
 
@@ -43,8 +44,9 @@ steck.push(2);
 steck.push(3);
 steck.push(4);
 
-// console.log(steck.peek());
-// console.log(steck.pop());
-// console.log(steck.pop());
-// console.log(steck.pop());
-// console.log(steck.pop());
+console.log(steck.peek(), steck.size());
+console.log(steck.pop(), steck.size());
+console.log(steck.pop(), steck.size());
+console.log(steck.pop(), steck.size());
+console.log(steck.pop(), steck.size());
+console.log(steck.pop(), steck.size());
